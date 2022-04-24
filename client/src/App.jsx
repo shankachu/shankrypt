@@ -1,8 +1,17 @@
-export default function App() {
+import { Navbar, Welcome, Footer, Services, Transactions } from "./components/index";
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      UHmmm Hello world!
-    </h1>
+    <div className='min-h-screen'>
+      <div className='gradient-bg-welcome'>
+        <Navbar />
+        <Welcome />
+      </div>
+      <Services />
+      <Transactions />
+      <Footer />
+    </div>
   )
 }
 
+export default App;
