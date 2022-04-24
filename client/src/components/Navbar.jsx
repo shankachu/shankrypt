@@ -14,8 +14,6 @@ const NavbarItem = ({ title, classProps }) => {
 
 const titles = ["Market", "Exchange", "Tutorials", "Wallets"];
 
-console.log(titles);
-
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = React.useState(false);
     return (
